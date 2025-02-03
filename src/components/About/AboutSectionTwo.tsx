@@ -31,7 +31,7 @@ const AboutSectionTwo = () => {
                   Bug free code
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                At SourceIgnite, we ensure clean, efficient, and reliable code for smooth functionality and scalability. Trust us for high-quality, error-free development! 🚀
+                At SourceIgnite, we ensure clean, efficient, and reliable code for smooth functionality and scalability. Trust us for high-quality, error-free development!
                 </p>
               </div>
               <div className="mb-9">
@@ -39,7 +39,7 @@ const AboutSectionTwo = () => {
                   Premier support
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                At SourceIgnite, we offer premier support to ensure your systems run flawlessly. From rapid issue resolution to expert guidance, our dedicated team delivers top-tier assistance, keeping your business ahead with seamless performance. 🚀
+                At SourceIgnite, we offer premier support to ensure your systems run flawlessly. From rapid issue resolution to expert guidance, our dedicated team delivers top-tier assistance, keeping your business ahead with seamless performance.
                 </p>
               </div>
               <div className="mb-1">
@@ -47,7 +47,7 @@ const AboutSectionTwo = () => {
                   Next.js
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                At SourceIgnite, we leverage Next.js to build high-performance, SEO-friendly, and scalable web applications. With server-side rendering (SSR), static site generation (SSG), and API routes, Next.js ensures lightning-fast experiences. Trust us for cutting-edge, efficient, and seamless web solutions! 🚀
+                At SourceIgnite, we leverage Next.js to build high-performance, SEO-friendly, and scalable web applications. With server-side rendering (SSR), static site generation (SSG), and API routes, Next.js ensures lightning-fast experiences. Trust us for cutting-edge, efficient, and seamless web solutions!
                 </p>
               </div>
             </div>

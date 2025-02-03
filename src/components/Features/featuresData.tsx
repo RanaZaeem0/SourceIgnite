@@ -14,7 +14,7 @@ const featuresData: Feature[] = [
     ),
     title: "Web Development",
     paragraph:
-      "Source Ignite creates high-performance, scalable, and visually stunning websites and web applications. We use the latest technologies to build fast, secure, and user-friendly digital experiences that drive growth. Let’s ignite your online presence! 🚀",
+      "Source Ignite creates high-performance, scalable, and visually stunning websites and web applications. We use the latest technologies to build fast, secure, and user-friendly digital experiences that drive growth. Let’s ignite your online presence!",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const featuresData: Feature[] = [
     ),
     title: "App Development",
     paragraph:
-      "Source Ignite builds powerful, user-friendly, and high-performance mobile and web apps. We leverage cutting-edge technology to create seamless, scalable, and engaging digital experiences. Let’s bring your app idea to life! 🚀",
+      "Source Ignite builds powerful, user-friendly, and high-performance mobile and web apps. We leverage cutting-edge technology to create seamless, scalable, and engaging digital experiences. Let’s bring your app idea to life!",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const featuresData: Feature[] = [
     ),
     title: "IT Consultation",
     paragraph:
-      "Source Ignite provides expert IT consultation to optimize your technology strategy. From system architecture to cybersecurity, we help businesses streamline operations, enhance security, and drive digital transformation. Let’s innovate together! 🚀",
+      "Source Ignite provides expert IT consultation to optimize your technology strategy. From system architecture to cybersecurity, we help businesses streamline operations, enhance security, and drive digital transformation. Let’s innovate together!",
   },
   {
     id: 4,
@@ -59,7 +59,7 @@ const featuresData: Feature[] = [
     ),
     title: "SEO Optimisation",
     paragraph:
-      "Source Ignite offers expert SEO optimization to boost your online visibility, drive organic traffic, and improve search rankings. We use data-driven strategies to enhance website performance and maximize digital growth. Let’s get you to the top! 🚀",
+      "Source Ignite offers expert SEO optimization to boost your online visibility, drive organic traffic, and improve search rankings. We use data-driven strategies to enhance website performance and maximize digital growth. Let’s get you to the top!",
   },
   {
     id: 5,
@@ -74,7 +74,7 @@ const featuresData: Feature[] = [
     ),
     title: "UI/UX Design",
     paragraph:
-      "Source Ignite specializes in creating intuitive and visually captivating UI/UX designs that enhance user experience. We focus on seamless navigation and engaging interfaces to ensure your users enjoy every interaction. Let’s design something unforgettable! 🚀",
+      "Source Ignite specializes in creating intuitive and visually captivating UI/UX designs that enhance user experience. We focus on seamless navigation and engaging interfaces to ensure your users enjoy every interaction. Let’s design something unforgettable!",
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ const featuresData: Feature[] = [
     ),
     title: "Logo Design",
     paragraph:
-      "Source Ignite offers custom logo design that captures your brand’s essence. We create unique, memorable logos that make a lasting impression and set you apart from the competition. Let’s design your brand’s identity! 🚀",
+      "Source Ignite offers custom logo design that captures your brand’s essence. We create unique, memorable logos that make a lasting impression and set you apart from the competition. Let’s design your brand’s identity!",
   },
   {
     id: 7,
@@ -111,7 +111,7 @@ const featuresData: Feature[] = [
     ),
     title: "CRM Solution",
     paragraph:
-      "Our CRM software helps businesses manage leads, automate workflows, track sales, and enhance customer engagement—all in one place. With powerful analytics, multi-channel communication, and seamless integrations, our CRM boosts efficiency and drives growth. Get started today! 🚀",
+      "Our CRM software helps businesses manage leads, automate workflows, track sales, and enhance customer engagement—all in one place. With powerful analytics, multi-channel communication, and seamless integrations, our CRM boosts efficiency and drives growth. Get started today!",
   },
 ];
 export default featuresData;

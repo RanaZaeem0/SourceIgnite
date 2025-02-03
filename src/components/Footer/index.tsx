@@ -27,7 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                SourceIgnite is an innovative IT startup specializing in cutting-edge software solutions, cloud services, and digital transformation. We ignite businesses with technology-driven growth, efficiency, and scalability. 🚀
+                SourceIgnite is an innovative IT startup specializing in cutting-edge software solutions, cloud services, and digital transformation. We ignite businesses with technology-driven growth, efficiency, and scalability.
                 </p>
                 <div className="flex items-center">
                   <a
