@@ -15,7 +15,7 @@ const Hero = () => {
                   Cutting-Edge Software Solutions for Modern Businesses
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  At SourceIgnite, we specialize in delivering cutting-edge software solutions tailored to modern business needs. Our expertise spans Web & App Development, IT Consultation, SEO Optimization, UI/UX Design, and Branding helping businesses establish a strong digital presence. Whether you're a startup or an enterprise, we provide scalable, high-performance solutions to drive your success.
+                  At SourceIgnite, we specialize in delivering cutting-edge software solutions tailored to modern business needs. Our expertise spans Web & App Development, IT Consultation, SEO Optimization, UI/UX Design, and Branding helping businesses establish a strong digital presence. Whether youre a startup or an enterprise, we provide scalable, high-performance solutions to drive your success.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
