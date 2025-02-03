@@ -13,8 +13,8 @@ const Video = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Stay Updated with SourceIgnite Videos! 🎥"
+          paragraph="Catch the latest news and insights through our videos, designed to keep you updated and supported every step of the way!"
           center
           mb="80px"
         />

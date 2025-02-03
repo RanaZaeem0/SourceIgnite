@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
+              <div className="mb-12 max-w-[360px] lg:mb-10">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/logo si.png"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
@@ -27,8 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                SourceIgnite is an innovative IT startup specializing in cutting-edge software solutions, cloud services, and digital transformation. We ignite businesses with technology-driven growth, efficiency, and scalability. 🚀
                 </p>
                 <div className="flex items-center">
                   <a

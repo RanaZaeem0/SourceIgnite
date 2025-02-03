@@ -34,4 +34,5 @@ export default function RootLayout({
   );
 }
 
-import { Providers } from "./providers";
+import { Providers } from "./providers";import { useEffect, useState } from "react";
+

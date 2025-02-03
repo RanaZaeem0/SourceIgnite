@@ -62,25 +62,25 @@ const Pricing = () => {
             packageName="Lite"
             price={isMonthly ? "40" : "120"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Basic Package Best Value for Money Guaranteed!"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Social media account setup" status="active" />
+            <OfferList text="Social media strategy" status="active" />
+            <OfferList text="1 social media handle (Facebook/Instagram/Twitter/LinkedIn) " status="active" />
+            <OfferList text="8 still design posts per month" status="active" />
+            <OfferList text="Cancel any time" status="inactive" />
+            <OfferList text="Money Back Guarantee" status="inactive" />
           </PricingBox>
           <PricingBox
             packageName="Basic"
             price={isMonthly ? "399" : "789"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Basic Package Best Value for Money Guaranteed!"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
+            <OfferList text="Social media account setup" status="active" />
+            <OfferList text="Social media strategy" status="active" />
+            <OfferList text="2 social media handles (Facebook & Instagram)" status="active" />
+            <OfferList text="15 still design posts per month" status="active" />
             <OfferList text="Lifetime Access" status="active" />
             <OfferList text="Free Lifetime Updates" status="inactive" />
           </PricingBox>
