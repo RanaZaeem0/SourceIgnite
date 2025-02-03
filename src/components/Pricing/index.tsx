@@ -81,21 +81,21 @@ const Pricing = () => {
             <OfferList text="Social media strategy" status="active" />
             <OfferList text="2 social media handles (Facebook & Instagram)" status="active" />
             <OfferList text="15 still design posts per month" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="4 Ad Campaigns" status="active" />
+            <OfferList text="Query management" status="inactive" />
           </PricingBox>
           <PricingBox
             packageName="Plus"
             price={isMonthly ? "589" : "999"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Basic Package Best Value for Money Guaranteed!"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Social media account setup" status="active" />
+            <OfferList text="Social media strategy" status="active" />
+            <OfferList text="3 Social media handles (Facebook, Instagram & Twitter/LinkedIn) " status="active" />
+            <OfferList text="2 Animated videos per month" status="active" />
+            <OfferList text="Query management" status="active" />
+            <OfferList text="Community management" status="active" />
           </PricingBox>
         </div>
       </div>
