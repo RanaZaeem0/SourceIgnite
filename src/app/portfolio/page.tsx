@@ -157,7 +157,7 @@ const Portfolio = () => {
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="cursor-pointer"
+                className="cursor-pointer shadow-lg rounded-lg"
                 onClick={() => openModal(index)}
               >
                 {/* Image Wrapper */}
@@ -169,8 +169,8 @@ const Portfolio = () => {
                     className="rounded-lg object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-semibold mt-4">{project.title}</h3>
-                <p className="text-muted-foreground">{project.description}</p>
+                <h3 className="text-xl font-semibold mt-4 mx-2">{project.title}</h3>
+                <p className="text-muted-foreground mb-1 mx-2">{project.description}</p>
               </div>
             ))}
           </div>
