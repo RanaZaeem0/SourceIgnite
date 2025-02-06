@@ -222,7 +222,7 @@ const Portfolio = () => {
           onClick={closeModal}
         >
           <div
-            className="relative flex h-[500px] w-[37%] flex-col overflow-hidden rounded-lg bg-white shadow-lg"
+            className="relative flex h-[500px] w-[50%] md:w-[30%] flex-col overflow-hidden rounded-lg bg-white shadow-lg"
             onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the modal
           >
             {/* Close Button */}
@@ -239,9 +239,9 @@ const Portfolio = () => {
                 src={projects[selectedIndex].images[currentImageIndex]}
                 alt={projects[selectedIndex].title}
                 fill
-                className="rounded-t-lg object-contain"
+                className="rounded-t-lg sm:object-cover md:object-contain"
               />
-              <div className="absolute inset-0 flex items-center justify-between px-4">
+              <div className="absolute inset-0 flex items-center justify-between px-1 md:px-2">
                 <button
                   className="rounded-full bg-black bg-opacity-50 p-2 text-white"
                   onClick={showPreviousImage}
@@ -258,18 +258,18 @@ const Portfolio = () => {
             </div>
 
             {/* Details Card */}
-            <div className="flex-1 overflow-y-auto bg-white p-6">
-              <h3 className="text-2xl font-bold text-gray-800">
+            <div className="flex-1 overflow-y-auto bg-white p-6 md:p-3">
+              <h3 className="text-xl font-bold text-gray-800">
                 {projects[selectedIndex].title}
               </h3>
-              <p className="mt-2 text-gray-600">
+              <p className="mt-2 md:mt-1 text-gray-600 sm:text-[13px] md:text-[15px]">
                 {projects[selectedIndex].description}
               </p>
               <a
                 href={projects[selectedIndex].link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 block text-blue-500 underline"
+                className="mt-4 md:mt-2 block text-blue-500 underline"
               >
                 Visit App
               </a>
