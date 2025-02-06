@@ -222,7 +222,7 @@ const Portfolio = () => {
           onClick={closeModal}
         >
           <div
-            className="relative flex h-[500px] w-[50%] md:w-[30%] flex-col overflow-hidden rounded-lg bg-white shadow-lg"
+            className="relative flex h-[500px] w-[80%] md:w-[30%] flex-col overflow-hidden rounded-lg bg-white shadow-lg"
             onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the modal
           >
             {/* Close Button */}
@@ -258,18 +258,18 @@ const Portfolio = () => {
             </div>
 
             {/* Details Card */}
-            <div className="flex-1 overflow-y-auto bg-white p-6 md:p-3">
+            <div className="flex-1 overflow-y-auto bg-white sm:p-2 md:p-3">
               <h3 className="text-xl font-bold text-gray-800">
                 {projects[selectedIndex].title}
               </h3>
-              <p className="mt-2 md:mt-1 text-gray-600 sm:text-[13px] md:text-[15px]">
+              <p className="sm:mt-0 md:mt-1 text-gray-600 sm:text-[13px] md:text-[15px]">
                 {projects[selectedIndex].description}
               </p>
               <a
                 href={projects[selectedIndex].link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 md:mt-2 block text-blue-500 underline"
+                className="sm:mt-1 md:mt-2 block text-blue-500 underline"
               >
                 Visit App
               </a>
