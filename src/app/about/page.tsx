@@ -14,11 +14,11 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="About Us"
+        description="At SourceIgnite, we transform ideas into digital solutions that drive success, offering innovative and reliable services to help businesses thrive in the digital world."
       />
-      <AboutSectionOne />
       <AboutSectionTwo />
+      <AboutSectionOne />
     </>
   );
 };
