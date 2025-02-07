@@ -5,11 +5,11 @@ import featuresData from "./featuresData";
 const Features = () => {
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
+      <section id="features" className="py-4 md:py-6 lg:py-20">
         <div className="container">
           <SectionTitle
             title="Our Services"
-            paragraph="Learn how we helped our several clients grow in online business. It will give you an idea of our capabilities."
+            paragraph="Let us show you how we can help your business thrive."
             center
           />
 

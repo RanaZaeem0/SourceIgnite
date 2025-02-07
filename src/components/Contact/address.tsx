@@ -32,12 +32,12 @@ const Address = () => {
             Address
           </h2>
           <p className="text-base dark:text-white lg:text-lg">
-            3556 Hartford Way Vlg, Mount Pleasant, SC, 29466, Australia.{" "}
+          34 Summit Close, Kingswood, Bristol, Gloucestershire, BS15 9AB
           </p>
         </div>
       </div>
 
-      <div className="mt-6 flex gap-2">
+      {/* <div className="mt-6 flex gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -60,7 +60,7 @@ const Address = () => {
           <p className="text-base dark:text-white lg:text-lg">734-697-2907</p>
           <p className="text-base dark:text-white lg:text-lg">843-971-1906</p>
         </div>
-      </div>
+      </div> */}
 
       <div className="mt-6 flex gap-2">
         <svg
