@@ -1,10 +1,9 @@
-import { Github, Linkedin, Twitter } from 'lucide-react'
+import { Linkedin } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
 
 const Team = () => {
-
   const teamMembers = [
     {
       name: 'Awais',
@@ -58,8 +57,8 @@ const Team = () => {
 
   return (
     <>
-     {/* Team Section */}
-     <section className="py-20 bg-white">
+      {/* Team Section */}
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
@@ -67,14 +66,21 @@ const Team = () => {
               Our diverse team of experts is passionate about creating innovative solutions that drive your success.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member, index) => (
-              <div key={index} className="group">
+              <div 
+                key={index} 
+                className={`group ${
+                  index >= teamMembers.length - 2 
+                    ? 'lg:col-span-2 lg:mx-auto lg:max-w-sm' 
+                    : ''
+                }`}
+              >
                 <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 group-hover:-translate-y-2">
                   <Image 
-                  width={500}
-                  height={400}
+                    width={500}
+                    height={400}
                     src={member.image} 
                     alt={member.name}
                     className="w-full h-80 object-cover object-center"
@@ -85,7 +91,6 @@ const Team = () => {
                         <Link href={member.social.linkedin} className="text-white hover:text-gray-200 transition-colors">
                           <Linkedin size={20} />
                         </Link>
-                        
                       </div>
                     </div>
                   </div>

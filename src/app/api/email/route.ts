@@ -4,11 +4,11 @@ import nodemailer from 'nodemailer';
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
   host: 'smtp.gmail.com',
-  secure: false,
+  secure: true,
   auth: {
     user: process.env.GMAIL_FROM,
     pass: process.env.GMAIL_APP_PASSWORD
-  }
+  } 
 });
 
 export async function POST(request: NextRequest) {
@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
 
     const mailOptions = {
       from: process.env.GMAIL_FROM,
-      to: 'infozyck@gmail.com', // Explicitly set to infozyck@gmail.com
+      to: 'hello@sourceignitegmail.com', // Explicitly set to infozyck@gmail.com
       subject: `New Contact Form Submission from ${name}`,
       text: `
         Name: ${name}
