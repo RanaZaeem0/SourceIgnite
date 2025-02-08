@@ -14,7 +14,7 @@ const featuresData: Feature[] = [
     ),
     title: "Web Development",
     paragraph:
-      "Source Ignite creates high-performance, scalable, and visually stunning websites and web applications. We use the latest technologies to build fast, secure, and user-friendly digital experiences that drive growth. Let’s ignite your online presence!",
+      "At SourceIgnite, we create fast, secure, and user-friendly websites and web apps. We use the latest technologies to build digital experiences that support business growth and drive success. Let’s boost your online presence!",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const featuresData: Feature[] = [
     ),
     title: "App Development",
     paragraph:
-      "Source Ignite builds powerful, user-friendly, and high-performance mobile and web apps. We leverage cutting-edge technology to create seamless, scalable, and engaging digital experiences. Let’s bring your app idea to life!",
+      "SourceIgnite builds mobile and web apps that are powerful, intuitive, and high-performing. Using the latest technology, we deliver seamless and scalable digital solutions that bring your ideas to life. Let’s create something amazing!",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const featuresData: Feature[] = [
     ),
     title: "IT Consultation",
     paragraph:
-      "Source Ignite provides expert IT consultation to optimize your technology strategy. From system architecture to cybersecurity, we help businesses streamline operations, enhance security, and drive digital transformation. Let’s innovate together!",
+      "We provide expert IT consultation to optimize your technology strategy. From system architecture to cybersecurity, we help businesses streamline operations and enhance security. Let’s drive your digital transformation together!",
   },
   {
     id: 4,
@@ -59,7 +59,7 @@ const featuresData: Feature[] = [
     ),
     title: "SEO Optimisation",
     paragraph:
-      "Source Ignite offers expert SEO optimization to boost your online visibility, drive organic traffic, and improve search rankings. We use data-driven strategies to enhance website performance and maximize digital growth. Let’s get you to the top!",
+      "SourceIgnite offers SEO services to increase your online visibility, drive organic traffic, and improve search rankings. Using data-driven strategies, we enhance website performance and accelerate your digital growth. Let’s get you to the top!",
   },
   {
     id: 5,
@@ -74,7 +74,7 @@ const featuresData: Feature[] = [
     ),
     title: "UI/UX Design",
     paragraph:
-      "Source Ignite specializes in creating intuitive and visually captivating UI/UX designs that enhance user experience. We focus on seamless navigation and engaging interfaces to ensure your users enjoy every interaction. Let’s design something unforgettable!",
+      "We specialize in creating intuitive, visually appealing UI/UX designs that improve user experience. Our focus is on seamless navigation and engaging interfaces, ensuring every user interaction is memorable. Let’s make your design unforgettable!",
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ const featuresData: Feature[] = [
     ),
     title: "Logo Design",
     paragraph:
-      "Source Ignite offers custom logo design that captures your brand’s essence. We create unique, memorable logos that make a lasting impression and set you apart from the competition. Let’s design your brand’s identity!",
+      "SourceIgnite crafts unique, custom logos that capture your brand’s essence. Our designs create lasting impressions and help you stand out from the competition. Let’s build your brand’s identity together!",
   },
   {
     id: 7,
