@@ -15,7 +15,7 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     const { name, email, message } = body;
-console.log( name, email, phone, message,process.env.GMAIL_FROM, process.env.GMAIL_APP_PASSWORD);
+console.log( name, email, message,process.env.GMAIL_FROM, process.env.GMAIL_APP_PASSWORD);
     if (!name || !email || !message) {
       return NextResponse.json(
         { error: 'Missing required fields' }, 
