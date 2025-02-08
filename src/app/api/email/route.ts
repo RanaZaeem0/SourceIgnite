@@ -14,8 +14,8 @@ const transporter = nodemailer.createTransport({
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, phone, message } = body;
-
+    const { name, email, message } = body;
+console.log( name, email, phone, message,process.env.GMAIL_FROM, process.env.GMAIL_APP_PASSWORD);
     if (!name || !email || !message) {
       return NextResponse.json(
         { error: 'Missing required fields' }, 
@@ -30,8 +30,6 @@ export async function POST(request: NextRequest) {
       text: `
         Name: ${name}
         Email: ${email}
-        Phone: ${phone || 'Not provided'}
-        
         Message:
         ${message}
       `,
@@ -39,7 +37,6 @@ export async function POST(request: NextRequest) {
         <h2>New Contact Form Submission</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Phone:</strong> ${phone || 'Not provided'}</p>
         <h3>Message:</h3>
         <p>${message}</p>
       `
